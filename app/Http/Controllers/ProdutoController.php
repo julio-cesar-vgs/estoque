@@ -7,13 +7,17 @@ use Illuminate\Support\Facades\DB;
 
 /**
  *
- * Responsavel por trazer os dados dos produtos. 
+ * Responsavel por trazer os dados dos produtos.
  * Class ProdutoController
  * @package App\Http\Controllers
  */
 class ProdutoController extends Controller
 {
     /**
+     *
+     *
+     *
+     *
      * Funcao para trazer os dados dos produtos
      * @return $listaProdutos
      */
