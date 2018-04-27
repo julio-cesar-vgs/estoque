@@ -2,10 +2,16 @@
 <html>
 <head>
     <title>Controle de Estoque</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            i></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"
+    ></script>
 </head>
 <body>
 <h1>Listagem de Produtos</h1>
-<table>
+<table class="table">
     <tr>
         <td>Nome</td>
         <td>Valor</td>
@@ -18,6 +24,9 @@
             <td><?= $produto->valor ?></td>
             <td><?= $produto->descricao ?></td>
             <td><?= $produto->quantidade ?></td>
+            <a href="/produtos/mostra?id=<?= $produto->id ?>">
+                <span class="glyphicon glyphicon-search"></span>
+            </a>
         </tr>
     <?php endforeach ?>
 </table>
