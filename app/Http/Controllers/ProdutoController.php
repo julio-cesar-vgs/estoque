@@ -53,7 +53,7 @@ class ProdutoController extends Controller
      */
     public function novo()
     {
-        return view('formulario');
+        return view('produto.formulario');
     }
 
 
@@ -76,6 +76,15 @@ class ProdutoController extends Controller
 
         DB::insert('insert into produtos(nome, valor, descricao, quantidade) 
         values (?,?,?,?)', array($nome, $valor, $descricao, $quantidade));
-        return view('adicionado')->with('nome', 'Frigobar');
+        return redirect()
+            ->action('ProdutoController@lista')
+            ->withInput(Request::only('nome'));
+    }
+
+
+    public function listaJson()
+    {
+        $produtos = DB::select("select * from produtos");
+        return $produtos;
     }
 }
