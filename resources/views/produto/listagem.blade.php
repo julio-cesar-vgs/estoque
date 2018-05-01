@@ -3,7 +3,7 @@
 @section('conteudo')
 
     <h1 align="center">Listagem de Produtos</h1>
-    <table class="table table-striped table-bordered table-hover">
+    <table class="table table-striped table-bordered">
         <thead>
         <tr align="center">
             <td>Nome</td>

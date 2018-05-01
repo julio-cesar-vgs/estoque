@@ -45,4 +45,37 @@ class ProdutoController extends Controller
 
         return view('produto.detalhe')->with('produto', $resposta[0]);
     }
+
+    /**
+     *
+     * chama o formulario novo produto.
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function novo()
+    {
+        return view('formulario');
+    }
+
+
+    /**
+     *
+     * Funcao para adicionar produto,
+     * nao estamos passando nada por parametro ate o momento.
+     *
+     *
+     * no form, estamos passando um csrf_token, para evitar o sql injection
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function adiciona()
+    {
+
+        $nome = Request::input('nome');
+        $quantidade = Request::input('quantidade');
+        $valor = Request::input('valor');
+        $descricao = Request::input('descricao');
+
+        DB::insert('insert into produtos(nome, valor, descricao, quantidade) 
+        values (?,?,?,?)', array($nome, $valor, $descricao, $quantidade));
+        return view('adicionado')->with('nome', 'Frigobar');
+    }
 }
