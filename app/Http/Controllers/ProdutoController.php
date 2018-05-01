@@ -28,7 +28,7 @@ class ProdutoController extends Controller
         // funcao view, é uma funcao chamada helper method, usado para recuperar dados, nao sendo precisa passar o final .php
         //with, necessario passar a variavel para ser disponibilizada e exibido na camada de vizualizacao.
         // logica que ajuda a retorna os dados.
-        return view('listagem')->with('produtos', $produtos);
+        return view('produto/listagem')->with('produtos', $produtos);
     }
 
 
@@ -43,6 +43,6 @@ class ProdutoController extends Controller
         $id = Request::route('id');
         $resposta = DB::select('select * from produtos where id = ?', [$id]);
 
-        return view('detalhe')->with('produto', $resposta[0]);
+        return view('produto.detalhe')->with('produto', $resposta[0]);
     }
 }
