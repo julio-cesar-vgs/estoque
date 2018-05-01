@@ -15,4 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// funcao para retornar todos os produtos
 Route::get('/produtos','ProdutoController@lista');
+
+
+// configuracao para pegar uma url ao clicar em um produto.
+Route::get('/produtos/mostra/{id}','ProdutoController@mostra');

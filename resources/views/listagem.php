@@ -17,6 +17,7 @@
         <td>Valor</td>
         <td>Descrição</td>
         <td>quantidade</td>
+        <td>Ação</td>
     </tr>
     <?php foreach ($produtos as $produto) : ?>
         <tr>
@@ -24,9 +25,11 @@
             <td><?= $produto->valor ?></td>
             <td><?= $produto->descricao ?></td>
             <td><?= $produto->quantidade ?></td>
-            <a href="/produtos/mostra?id=<?= $produto->id ?>">
-                <span class="glyphicon glyphicon-search"></span>
-            </a>
+            <td>
+                <a href="/produtos/mostra/id=<?= $produto->id ?>">
+                    Visualizar
+                </a>
+            </td>
         </tr>
     <?php endforeach ?>
 </table>
