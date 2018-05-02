@@ -9,7 +9,7 @@ nav.navbar.navbar-default a {
 }
 
 li p.navbar-text, a.navbar-brand {
-    color: white !important;
+    color: black !important;
     font-weight: bolder;
 }
 

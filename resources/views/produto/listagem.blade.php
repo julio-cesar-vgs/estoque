@@ -3,14 +3,15 @@
 @section('conteudo')
 
     <h1 align="center">Listagem de Produtos</h1>
-    <table class="table table-striped table-bordered">
+    <table id="tabelaDissertacoes" class="table table-striped" style="width:100%">
         <thead>
         <tr align="center">
-            <td>Nome</td>
-            <td>Valor</td>
-            <td>Descrição</td>
-            <td>quantidade</td>
-            <td>Ação</td>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+            <th>Quantidade</th>
+            <th>Editar</th>
+            <th>Remover</th>
         </tr>
         </thead>
         @foreach ($produtos as $produto)
@@ -22,7 +23,12 @@
                 <td>{{$produto->quantidade}}</td>
                 <td>
                     <a href="/produtos/mostra/{{$produto->id}}">
-                        Visualizar
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                </td>
+                <td>
+                    <a href="{{action('ProdutoController@remove',$produto->id)}}">
+                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                     </a>
                 </td>
             </tr>

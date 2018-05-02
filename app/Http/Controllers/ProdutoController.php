@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 
-use Illuminate\Support\Facades\DB;
+use App\Produto;
 use Illuminate\Support\Facades\Request;
 
 
@@ -19,11 +19,10 @@ class ProdutoController extends Controller
      * Funcao para trazer os dados dos produtos
      * @return $listaProdutos
      */
-    public function lista()
+    public function listaTudo()
     {
         //forma de recuperar as informacoes do banco de dados;
-        $produtos = DB::select("select * from produtos");
-
+        $produtos = Produto::all();
 
         // funcao view, é uma funcao chamada helper method, usado para recuperar dados, nao sendo precisa passar o final .php
         //with, necessario passar a variavel para ser disponibilizada e exibido na camada de vizualizacao.
@@ -38,12 +37,11 @@ class ProdutoController extends Controller
      *é passado um with, com parametros que vai ser recuperado e a variavel para aparecer.
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function mostra()
+    public function mostraProdutoPorID()
     {
         $id = Request::route('id');
-        $resposta = DB::select('select * from produtos where id = ?', [$id]);
-
-        return view('produto.detalhe')->with('produto', $resposta[0]);
+        $produto = Produto::find($id);
+        return view('produto.detalhe')->with('produto', $produto);
     }
 
     /**
@@ -60,7 +58,7 @@ class ProdutoController extends Controller
     /**
      *
      * Funcao para adicionar produto,
-     * nao estamos passando nada por parametro ate o momento.
+     *
      *
      *
      * no form, estamos passando um csrf_token, para evitar o sql injection
@@ -69,22 +67,31 @@ class ProdutoController extends Controller
     public function adiciona()
     {
 
-        $nome = Request::input('nome');
-        $quantidade = Request::input('quantidade');
-        $valor = Request::input('valor');
-        $descricao = Request::input('descricao');
+        // funcao para pegar todos os nomes dos itens.
+        $params = Request::all();
+        //é dado um new produto e passo os parametros via construtor internet
+        $Produto = new Produto($params);
 
-        DB::insert('insert into produtos(nome, valor, descricao, quantidade) 
-        values (?,?,?,?)', array($nome, $valor, $descricao, $quantidade));
+        // salva o produto..
+        $Produto->save();
+
         return redirect()
-            ->action('ProdutoController@lista')
+            ->action('ProdutoController@listaTudo')
             ->withInput(Request::only('nome'));
     }
 
 
     public function listaJson()
     {
-        $produtos = DB::select("select * from produtos");
+        $produtos = Produto::all();
         return $produtos;
+    }
+
+
+    public function remove($id)
+    {
+        $produto = Produto::find($id);
+        $produto->delete();
+        return redirect()->action('ProdutoController@listaTudo');
     }
 }
