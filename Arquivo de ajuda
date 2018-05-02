@@ -42,3 +42,18 @@ Necessario executar alguns comandos:
 composer update → para atualizar o composer e verificar algum erro.
 
 php artisan cache:clear → Limpar cache
+
+caso esteja ocorrendo mais algum erro, necessario rodar o comando
+
+composer update.
+
+----------------------------------------------------------------------------
+
+
+Para verificar a migration
+https://laravel.com/docs/5.6/migrations#rolling-back-migrations
+
+----------------------------------------------------------------------------
+
+php artisan migrate → para migrar um banco de dados para aceitar.
+php artisan migrate:rollback → para retornar as informacoes no banco anterior.  
