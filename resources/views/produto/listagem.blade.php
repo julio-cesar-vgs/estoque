@@ -4,8 +4,8 @@
 
     <h1 align="center">Listagem de Produtos</h1>
     <table id="tabelaDissertacoes" class="table table-striped" style="width:100%">
-        <thead>
-        <tr align="center">
+        <thead align="center">
+        <tr>
             <th>Nome</th>
             <th>Valor</th>
             <th>Descrição</th>
