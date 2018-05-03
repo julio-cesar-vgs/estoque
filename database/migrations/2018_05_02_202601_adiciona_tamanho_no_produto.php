@@ -13,7 +13,7 @@ class AdicionaTamanhoNoProduto extends Migration
     public function up()
     {
         Schema::table('produtos', function ($table) {
-            $table->string('tamanho', 100)->nullable($value = false)->after('descricao')->default($value="Produtos");
+            $table->text('tamanho', 100)->nullable($value = false)->after('descricao');
         });
     }
 

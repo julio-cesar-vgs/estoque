@@ -38,7 +38,7 @@
         @endforeach
     </table>
     @if(old('nome'))
-        <div class="alert alert-sucess">
+        <div class="alert alert-success">
             O produto {{ old('nome') }} foi adicionado.
         </div>
     @endif

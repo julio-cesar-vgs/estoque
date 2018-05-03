@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Http\Requests\ProdutoRequest;
 use App\Produto;
 use Illuminate\Support\Facades\Request;
 
@@ -64,11 +65,11 @@ class ProdutoController extends Controller
      * no form, estamos passando um csrf_token, para evitar o sql injection
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function adiciona()
+    public function adiciona(ProdutoRequest $request)
     {
 
         // funcao para pegar todos os nomes dos itens.
-        $params = Request::all();
+        $params = $request->all();
         //é dado um new produto e passo os parametros via construtor internet
         $Produto = new Produto($params);
 
