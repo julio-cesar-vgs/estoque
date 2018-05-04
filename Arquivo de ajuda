@@ -56,4 +56,12 @@ https://laravel.com/docs/5.6/migrations#rolling-back-migrations
 ----------------------------------------------------------------------------
 
 php artisan migrate → para migrar um banco de dados para aceitar.
-php artisan migrate:rollback → para retornar as informacoes no banco anterior.  
+php artisan migrate:rollback → para retornar as informacoes no banco anterior.
+
+
+
+
+
+ideias para deploy
+
+https://cursos.alura.com.br/forum/topico-deploy-com-laravel-37035

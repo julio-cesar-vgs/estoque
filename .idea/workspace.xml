@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e77b881f-9be1-4dcb-a818-f3125a67e2ee" name="Default" comment="Capitulo 4 - Segundo Curso Laravel -   Autenticação e segurança &#10;Neste momento foi configurado as validacoes">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c29f8a5e-c5a9-486c-88fe-706631636967.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c29f8a5e-c5a9-486c-88fe-706631636967.xml" afterDir="false" />
+    <list default="true" id="e77b881f-9be1-4dcb-a818-f3125a67e2ee" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/form_login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arquivo de ajuda" beforeDir="false" afterPath="$PROJECT_DIR$/Arquivo de ajuda" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_05_02_202601_adiciona_tamanho_no_produto.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_05_02_202601_adiciona_tamanho_no_produto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_05_02_210742_altera_tamanho_valornull.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_05_02_210742_altera_tamanho_valornull.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/principal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/principal.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,43 +63,37 @@
       <node key="c29f8a5e-c5a9-486c-88fe-706631636967" />
     </expanded>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="estoque" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="formulario.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
+      <file leaf-file-name="Autorizador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Autorizador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoRequest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php">
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listagem.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProdutoController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="612">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
-                <element signature="e#41#78#0#PHP" expanded="true" />
+                <element signature="e#28#65#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -136,6 +129,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Julio Cesar &lt;julio.cesar.vgs@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -152,25 +150,30 @@
         <option value="$PROJECT_DIR$/resources/views/formulario.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/public/js/acervo.js" />
-        <option value="$PROJECT_DIR$/public/css/custom.css" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/principal.blade.php" />
         <option value="$PROJECT_DIR$/banco de dados/estoque.sql" />
         <option value="$PROJECT_DIR$/diversos" />
         <option value="$PROJECT_DIR$/app/Produto.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/Arquivo de ajuda" />
         <option value="$PROJECT_DIR$/resources/views/produto/detalhe.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c29f8a5e-c5a9-486c-88fe-706631636967/console.sql" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_02_202601_adiciona_tamanho_no_produto.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_02_210742_altera_tamanho_valornull.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c29f8a5e-c5a9-486c-88fe-706631636967/console_1.sql" />
         <option value="c29f8a5e-c5a9-486c-88fe-706631636967/schema/estoque_laravel/table/produtos.sql" />
-        <option value="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login/form_login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/principal.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/custom.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/views/form_login.blade.php" />
+        <option value="$PROJECT_DIR$/Arquivo de ajuda" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Autorizador.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -272,8 +275,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="x" value="951" />
+    <option name="width" value="976" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -291,13 +294,31 @@
             <path>
               <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estoque" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estoque" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estoque" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,16 +339,17 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ascom\estoque" />
-      <recent name="C:\Users\Souza\estoque\resources\views\produto" />
-      <recent name="C:\Users\Souza\estoque\resources\views" />
-      <recent name="C:\Users\Souza\estoque\resources\views\layout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ascom\estoque\banco de dados" />
       <recent name="C:\Users\ascom\estoque\public" />
       <recent name="C:\Users\Souza\estoque\storage\logs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Souza\estoque\resources\views" />
+      <recent name="C:\Users\Souza\estoque\resources\views\login" />
+      <recent name="C:\Users\ascom\estoque" />
+      <recent name="C:\Users\Souza\estoque\resources\views\produto" />
+      <recent name="C:\Users\Souza\estoque\resources\views\layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,7 +383,8 @@
       <workItem from="1525177602332" duration="709000" />
       <workItem from="1525184456702" duration="7111000" />
       <workItem from="1525318437335" duration="982000" />
-      <workItem from="1525344929674" duration="5644000" />
+      <workItem from="1525344929674" duration="7034000" />
+      <workItem from="1525429840776" duration="7364000" />
     </task>
     <task id="LOCAL-00001" summary="Capitulo 4 - Parametros de request via URL. &#10;Neste capitulo é ensinado a utilizar uma url mais semantica, para carregamento de um produto">
       <created>1525148685870</created>
@@ -384,29 +407,41 @@
       <option name="project" value="LOCAL" />
       <updated>1525190203414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Capitulo 4 - Segundo Curso Laravel -   Autenticação e segurança &#10;Neste momento foi configurado as validacoes, tais validacoes foi programado de forma amigaveis para exibir ao usuario&#10;&#10;Foi criado uma classe chamado ProdutoRequest - Classe responsavel pelas regras de validacoes e personalizacao das mensagens de erro.&#10;&#10;Listagel.blade.php -&gt; Foi adicionado um if aonde eh verificado se os campos estao em brancos ou nao.">
+      <created>1525350684377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525350684377</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Teste Commit">
+      <created>1525350752812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525350752812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44921000" />
+    <option name="totallyTimeSpent" value="53675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50053304" side_tool="true" weight="0.32570806" />
-      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="17" sideWeight="0.49946696" visible="true" weight="0.3278867" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.339934" />
-      <window_info anchor="bottom" id="Terminal" order="20" weight="0.32893288" />
-      <window_info anchor="bottom" id="Database Console" order="21" weight="0.32352942" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50053304" side_tool="true" weight="0.32570806" />
       <window_info anchor="right" id="Database" order="3" weight="0.20788912" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32994923" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49946696" weight="0.33113313" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.339934" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24945295" />
+      <window_info anchor="bottom" id="Terminal" order="20" weight="0.32893288" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -414,102 +449,37 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="21" weight="0.32352942" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32994923" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Capitulo 4 - Parametros de request via URL. &#10;Neste capitulo é ensinado a utilizar uma url mais semantica, para carregamento de um produto" />
     <MESSAGE value="Capitulo 5 - Views mais flexíveis e poderosas &#10;Neste capitulo é ensinado a utilizar o blade como framework visual, criacao de templates e configuracao de um css customizado :D" />
     <MESSAGE value="Capitulo 6 - Request e métodos HTTP &#10;Configurado arquivos para criar um novo produto, dentro do formulario.blade.php, foi criado um campo com o &lt;input value=&quot;{{csrf_token}}&quot; name=&quot;_name&quot; /&gt; para gerar um token de segurança para o servidor, isto evita sql injection&#10;&#10;&#10;criado a rota para adicionar um novo produto, criado um insert para os produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Capitulo 6 - Request e métodos HTTP &#10;Configurado arquivos para criar um novo produto, dentro do formulario.blade.php, foi criado um campo com o &lt;input value=&quot;{{csrf_token}}&quot; name=&quot;_name&quot; /&gt; para gerar um token de segurança para o servidor, isto evita sql injection&#10;&#10;&#10;criado a rota para adicionar um novo produto, criado um insert para os produtos" />
+    <MESSAGE value="Capitulo 4 - Segundo Curso Laravel -   Autenticação e segurança &#10;Neste momento foi configurado as validacoes, tais validacoes foi programado de forma amigaveis para exibir ao usuario&#10;&#10;Foi criado uma classe chamado ProdutoRequest - Classe responsavel pelas regras de validacoes e personalizacao das mensagens de erro.&#10;&#10;Listagel.blade.php -&gt; Foi adicionado um if aonde eh verificado se os campos estao em brancos ou nao." />
+    <MESSAGE value="Teste Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste Commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/detalhe.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env" />
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel2.log" />
     <entry file="das://c29f8a5e-c5a9-486c-88fe-706631636967/schema/estoque_laravel/table/produtos" />
     <entry file="file://$PROJECT_DIR$/config/database.php">
@@ -520,13 +490,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Produto.php" />
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -539,27 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/adicionado.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -591,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/principal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c29f8a5e-c5a9-486c-88fe-706631636967/schema/estoque_laravel/table/produtos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -609,20 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="18" column="71" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arquivo de ajuda">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/detalhe.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -650,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,14 +606,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="das://c29f8a5e-c5a9-486c-88fe-706631636967/schema/estoque_laravel/table/produtos.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://c29f8a5e-c5a9-486c-88fe-706631636967/schema/estoque_laravel/table/produtos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -718,34 +630,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/principal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/detalhe.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/adicionado.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#40#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="306">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="43" />
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="44" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="847" column="22" selection-start-line="847" selection-start-column="22" selection-end-line="847" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="724" column="13" selection-start-line="724" selection-start-column="13" selection-end-line="724" selection-end-column="13" />
+          <folding>
+            <element signature="e#7#34#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form_login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="442">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="e#41#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProdutoRequest.php">
+    <entry file="file://$PROJECT_DIR$/Arquivo de ajuda">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        <state relative-caret-position="604">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Autorizador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#28#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>

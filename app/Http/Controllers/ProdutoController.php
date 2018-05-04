@@ -22,6 +22,13 @@ class ProdutoController extends Controller
      */
     public function listaTudo()
     {
+
+        if(\Auth::guest()){
+            redirect('/login');
+        }
+
+
+
         //forma de recuperar as informacoes do banco de dados;
         $produtos = Produto::all();
 
