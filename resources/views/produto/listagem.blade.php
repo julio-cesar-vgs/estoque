@@ -11,7 +11,7 @@
             <th>Descrição</th>
             <th>Quantidade</th>
             <th>Tamanho</th>
-            <th>Editar</th>
+            <th>Consultar</th>
             <th>Remover</th>
         </tr>
         </thead>
