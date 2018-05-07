@@ -15,7 +15,7 @@
         <input value="{{csrf_token()}}" type="hidden" name="_token">
         <div class="form-group">
             <label>Nome</label>
-            <input class="form-control" name="nome"  min="2"  max="50" maxlength="50" minlength="2">
+            <input class="form-control" name="nome" min="2" max="50" maxlength="50" minlength="2">
         </div>
 
         <div class="form-group">
@@ -24,7 +24,7 @@
         </div>
         <div class="form-group">
             <label>Valor</label>
-            <input class="form-control" name="valor">
+            <input class="form-control" name="valor" type="number">
         </div>
         <div class="form-group">
             <label>Tamanho</label>

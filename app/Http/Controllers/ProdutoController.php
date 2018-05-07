@@ -16,19 +16,23 @@ use Illuminate\Support\Facades\Request;
  */
 class ProdutoController extends Controller
 {
+
+    /**
+     *
+     * Contrutor responsavel por chamar o formulario de autenticacao;
+     * ProdutoController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['only' => ['adiciona', 'remove']]);
+    }
+
     /**
      * Funcao para trazer os dados dos produtos
      * @return $listaProdutos
      */
     public function listaTudo()
     {
-
-        if(\Auth::guest()){
-            redirect('/login');
-        }
-
-
-
         //forma de recuperar as informacoes do banco de dados;
         $produtos = Produto::all();
 
