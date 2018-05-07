@@ -25,6 +25,9 @@ Route::get('/produtos.json', 'ProdutoController@listaJson');
 Route::get('/produtos/remove/{id}', 'ProdutoController@remove');
 
 
+Route::get('/login', 'LoginController@form');
+Route::post('/login', 'LoginController@login');
+
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
