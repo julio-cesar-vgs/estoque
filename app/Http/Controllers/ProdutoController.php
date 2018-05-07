@@ -24,7 +24,8 @@ class ProdutoController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth', ['only' => ['adiciona', 'remove']]);
+        $this->middleware('autorizador');
+        //$this->middleware('auth', ['only' => ['adiciona', 'remove']]);
     }
 
     /**

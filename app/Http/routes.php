@@ -1,8 +1,6 @@
 <?php
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ProdutoController@listaTudo');
 
 // funcao para retornar todos os produtos
 Route::get('/produtos', 'ProdutoController@listaTudo');

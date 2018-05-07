@@ -7,7 +7,8 @@ use Closure;
 class Autorizador
 {
     /**
-     * Handle an incoming request.
+     * É feito a verificacao se o usuario esta logado, caso nao esteja ele nega a requisao
+     * e vai para a barra login.
      *
      * @param  \Illuminate\Http\Request $request
      * @param  \Closure $next
