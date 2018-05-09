@@ -11,6 +11,7 @@
             <th>Descrição</th>
             <th>Quantidade</th>
             <th>Tamanho</th>
+            <th>Categorias</th>
             <th>Consultar</th>
             <th>Remover</th>
         </tr>
@@ -23,6 +24,7 @@
                 <td>{{$produto->descricao}}</td>
                 <td>{{$produto->quantidade}}</td>
                 <td>{{$produto->tamanho}}</td>
+                <td> {{ $produto->categoria->nome }}</td>
                 <td>
                     <a href="/produtos/mostra/{{$produto->id}}">
                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>

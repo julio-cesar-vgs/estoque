@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Categoria;
 use App\Http\Requests\ProdutoRequest;
 use App\Produto;
 use Illuminate\Support\Facades\Request;
@@ -24,7 +25,7 @@ class ProdutoController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('autorizador', ['only' => ['adiciona', 'remove']]);
+        $this->middleware('autorizador', ['only' => ['novo', 'remove']]);
         //$this->middleware('auth', ['only' => ['adiciona', 'remove']]);
     }
 
@@ -64,7 +65,7 @@ class ProdutoController extends Controller
      */
     public function novo()
     {
-        return view('produto.formulario');
+        return view('produto.formulario')->with('categorias', Categoria::all());
     }
 
 

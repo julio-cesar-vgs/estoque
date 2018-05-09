@@ -16,5 +16,9 @@ class Produto extends Model
 
     //atributo para auxiliar no crud, para quando formos passar todos os atributos para o banco de dados.
     // usamos isto como uma forma de garantir a integridade dos itens que serao carregados na base de dados.
-    protected $fillable = array('valor', 'nome', 'descricao', 'tamanho', 'quantidade');
+    protected $fillable = array('valor', 'nome', 'descricao', 'tamanho', 'quantidade','categoria_id');
+
+    public function categoria(){
+        return $this->belongsTo('estoque\Categoria');
+    }
 }
