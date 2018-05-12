@@ -1,6 +1,6 @@
 @extends('layout.principal')
 @section('conteudo')
-    <h1>Detalhes do produto: {{$produto->nome}}</h1>
+    <h1 align="center">Detalhes do produto: {{$produto->nome}}</h1>
     <table class="table table-striped table-houver">
         <thead align="center">
         <tr>

@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Database\Seeder;
+use App\Categoria;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,8 +15,24 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call('UserTableSeeder');
+        $this->call('CategoriaTableSeeder');
 
         Model::reguard();
+    }
+}
+
+/**
+ * Criação da funcao para adicionar itens automaticamente no banco de dados.
+ * Class CategoriaTableSeeder
+ */
+class CategoriaTableSeeder extends Seeder
+{
+
+    public function run()
+    {
+        Categoria::create(['nome' => 'ELETRODOMESTICO']);
+        Categoria::create(['nome' => 'ELETRONICA']);
+        Categoria::create(['nome' => 'BRINQUEDO']);
+        Categoria::create(['nome' => 'ESPORTES']);
     }
 }

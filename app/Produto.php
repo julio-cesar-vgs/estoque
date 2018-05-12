@@ -19,6 +19,6 @@ class Produto extends Model
     protected $fillable = array('valor', 'nome', 'descricao', 'tamanho', 'quantidade','categoria_id');
 
     public function categoria(){
-        return $this->belongsTo('estoque\Categoria');
+        return $this->belongsTo('App\Categoria');
     }
 }
